@@ -1,102 +1,57 @@
-Introdução-Java
+☕ Repositório de Estudos Java: Da Lógica a uma Aplicação Desktop
 
-📖 Sobre o Projeto
+Este repositório documenta minha jornada de estudos em Java, começando dos conceitos fundamentais de lógica e POO até a construção de uma aplicação desktop funcional com interface gráfica.
 
-Este repositório é uma coleção de estudos e projetos desenvolvidos em Java, focados em solidificar os conceitos da linguagem. O conteúdo abrange desde exercícios básicos de lógica de programação até a construção de uma aplicação desktop funcional com interface gráfica (GUI).
+✨ Projeto Principal: Agenda de Contatos (Java Swing)
 
-O projeto principal é uma Agenda de Contatos completa, que serve como uma implementação prática de conceitos de Programação Orientada a Objetos (POO), manipulação de eventos em Java Swing e persistência de dados.
+O destaque do repositório é uma aplicação desktop completa para gerenciamento de contatos. Este projeto prático implementa um CRUD (Create, Read, Update, Delete) e solidifica conceitos-chave de desenvolvimento de software.
 
-✨ Projeto Principal: Agenda de Contatos (Swing)
+Principais Habilidades e Funcionalidades:
 
-O coração deste repositório é uma aplicação de CRUD (Create, Read, Update, Delete) para gerenciamento de contatos, construída inteiramente com Java Swing.
+Desenvolvimento de GUI com Java Swing: Construção de uma interface de usuário visual e interativa utilizando componentes como JFrame, JPanel, JTable, JTextField e JButton.
 
-Arquivos: PrincipalAgenda.java, banner.jpeg
+Operações CRUD: Implementação das quatro operações essenciais de dados:
 
-⚙️ Funcionalidades
+Incluir: Adicionar novos contatos.
 
-Interface Gráfica (GUI): A aplicação possui uma interface de usuário completa construída com componentes Swing (JFrame, JPanel, JTable, JTextField, JButton), permitindo uma interação visual para gerenciar os contatos.
+Consultar: Buscar contatos por nome ou código.
 
-Operações CRUD:
+Alterar: Atualizar informações de contatos existentes.
 
-Incluir: Adiciona novos contatos à agenda.
+Excluir: Remover contatos da agenda.
 
-Consultar: Permite a busca de contatos por Código ou por Nome.
+Persistência de Dados com Serialização: Utilização de ObjectOutputStream e ObjectInputStream para salvar (serializar) e carregar (desserializar) os contatos em um arquivo binário (agenda.dat). Isso garante que os dados persistam mesmo após o fechamento da aplicação.
 
-Alterar: Atualiza as informações de um contato existente.
+Visualização Dinâmica: Uso de JTable para exibir todos os contatos em uma tabela que é atualizada automaticamente após cada operação.
 
-Excluir: Remove um contato da agenda.
+🚀 Exercícios e Conceitos Fundamentais
 
-Persistência de Dados: A agenda salva e carrega os dados automaticamente em um arquivo binário (agenda.dat). Isso é feito através da Serialização de Objetos (ObjectOutputStream e ObjectInputStream), garantindo que os dados persistam entre as execuções da aplicação.
+Além da aplicação principal, o repositório contém uma vasta coleção de exercícios focados em conceitos específicos, demonstrando proficiência em:
 
-Visualização em Tabela: Todos os contatos são exibidos em uma JTable que é atualizada dinamicamente após cada operação, facilitando a visualização.
+Programação Orientada a Objetos (POO):
 
-🚀 Exercícios e Conceitos Abordados
+Modelagem de Entidades: Criação de classes para simular cenários do mundo real, como ContaPoupanca (com métodos sacar()/depositar()), Paciente (cálculo de IMC) e Funcionario (cálculo de salário e impostos).
 
-Além da agenda, o repositório contém uma vasta coleção de exercícios menores, cada um focado em um conceito específico do Java.
+Modelagem Geométrica: Classes para cálculos complexos de geometria, como Triangulo (Fórmula de Heron, classificação), Cilindro, Cone e Esfera (cálculos de área e volume).
 
-1. Lógica e Manipulação de Strings
+Estruturas de Dados e Coleções:
 
-Exercícios focados em entrada, saída e processamento de dados textuais.
+Utilização de HashSet para garantir a unicidade de elementos (ex: 50 números aleatórios).
 
-AnexoA1.java: Validação de tamanho mínimo de string (10 caracteres).
+Manipulação de Arrays de booleanos e Strings.
 
-AnexoA2.java: Iteração sobre os caracteres de uma string.
+Lógica e Manipulação de Strings:
 
-AnexoA3.java: Extração de substrings (substring(0, N)).
+Exercícios de processamento de texto, incluindo validação de tamanho, iteração de caracteres, extração de substrings (substring), substituição (replace) e verificação de prefixos (startsWith).
 
-AnexoA4.java: Substituição de caracteres (troca de vogais por ?).
+🛠️ Tecnologias e Conceitos Chave
 
-AnexoA5.java: Extração de caracteres numéricos de uma string.
+Linguagem: Java
 
-AnexoA6.java: Verificação de prefixos de string (startsWith("http:")).
+Biblioteca de GUI: Java Swing
 
-AnexoA13.java: Busca de substrings (contains("-help")).
+Conceitos de POO: Encapsulamento, Construtores, Métodos
 
-2. Arrays, Coleções e Aleatoriedade
-   
-Demonstração do uso de estruturas de dados e geração de números aleatórios.
+Persistência: Serialização de Objetos (Java I/O)
 
-AnexoA10.java: Uso de HashSet para garantir a unicidade de 50 números aleatórios.
-
-AnexoA11.java: Contagem de elementos (true) em um array de booleanos.
-
-AnexoA12.java: Contagem de elementos (string.length() < 10) em um array de Strings.
-
-Dado.java: Simulação de um dado de 6 faces usando Random.
-
-3. Programação Orientada a Objetos (POO)
-   
-Classes que modelam entidades do mundo real e formas geométricas, aplicando os pilares da POO (encapsulamento, construtores e métodos).
-
-Modelagem de Entidades
-ContaPoupanca.java: Simula uma conta bancária com métodos para sacar() e depositar().
-
-Pessoa.java / Paciente.java: Classes para calcular o IMC (Índice de Massa Corporal) e classificar a faixa de peso.
-
-Funcionario.java / Funcionario2.java: Modelagem de funcionário com cálculos de salário, aumento, descontos de IRPF e INSS.
-
-Triangulo.java: Classe complexa que calcula perímetro, área (Fórmula de Heron) e classifica o triângulo (Equilátero, Isósceles, Escaleno).
-
-Modelagem Geométrica
-
-AnexoA7.java: Cálculo da área do círculo.
-
-Retangulo.java: Cálculo de área e perímetro.
-
-Cilindro.java: Cálculo de área lateral, área total e volume.
-
-Cone.java: Cálculo de geratriz, área lateral, área total e volume.
-
-Esfera.java: Cálculo de área e volume.
-
-Piramide.java: Cálculo de volume.
-
-Paralelepipedo.java: Cálculo de volume e área.
-
-🛠️ Como Compilar e Executar
-
-Pré-requisitos
-JDK (Java Development Kit) instalado e configurado no PATH do sistema.
-
-1. Projeto Principal (Agenda de Contatos)
-O arquivo banner.jpeg deve estar no mesmo diretório dos arquivos compilados (.class).
+Estruturas: HashSet, Arrays
