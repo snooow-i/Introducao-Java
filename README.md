@@ -100,20 +100,3 @@ JDK (Java Development Kit) instalado e configurado no PATH do sistema.
 
 1. Projeto Principal (Agenda de Contatos)
 O arquivo banner.jpeg deve estar no mesmo diretório dos arquivos compilados (.class).
-
-# 1. Compile o código
-javac PrincipalAgenda.java
-
-# 2. Execute a aplicação
-java PrincipalAgenda
-
-2. Demais Exercícios
-   
-Cada arquivo .java (que contém um método main) pode ser compilado e executado individualmente.
-
-# 1. Compile o arquivo desejado (ex: AnexoA1)
-javac AnexoA1.java
-
-# 2. Execute o arquivo compilado
-java AnexoA1
-(Nota: Classes puras de modelo, como Cilindro.java ou ContaPoupanca.java, não possuem um método main e, portanto, não podem ser "executadas". Elas são feitas para serem utilizadas por outras classes.)
