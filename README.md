@@ -1,6 +1,7 @@
 Introdução-Java
 
 📖 Sobre o Projeto
+
 Este repositório é uma coleção de estudos e projetos desenvolvidos em Java, focados em solidificar os conceitos da linguagem. O conteúdo abrange desde exercícios básicos de lógica de programação até a construção de uma aplicação desktop funcional com interface gráfica (GUI).
 
 O projeto principal é uma Agenda de Contatos completa, que serve como uma implementação prática de conceitos de Programação Orientada a Objetos (POO), manipulação de eventos em Java Swing e persistência de dados.
